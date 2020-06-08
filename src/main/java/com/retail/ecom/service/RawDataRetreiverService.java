@@ -7,7 +7,7 @@ import javax.ws.rs.core.Response;
 import org.springframework.stereotype.Component;
 
 @Component
-public class RawDataRetreiver {
+public class RawDataRetreiverService {
 	
 	public void getRawData(){
 		Client client = ClientBuilder.newClient();
